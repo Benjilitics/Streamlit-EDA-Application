@@ -8,11 +8,11 @@ from streamlit_pandas_profiling import st_profile_report
 st.markdown('''
 # **The EDA App**
 
-This is the **EDA App** created in Streamlit using the **pandas-profiling** library.
+This is the **EDA App** created in `Streamlit` by `python` using the **pandas-profiling** library.
 
-**Credit:** App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+Original code written by Chanin Nantasenamat. 
 
-Adjusted by [Benjamin Trinh](https://www.linkedin.com/in/benjamin-binh-trinh/)
+Modified by [Benjamin Trinh](https://www.linkedin.com/in/benjamin-binh-trinh/)
 
 ---
 ''')
@@ -55,3 +55,8 @@ else:
         st.write('---')
         st.header('**Pandas Profiling Report**')
         st_profile_report(pr)
+
+# Creadit
+st.markdown('''
+**Credit:** App originally written by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+''')

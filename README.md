@@ -5,7 +5,7 @@ August 2022
 
 This instruction is from *Chanin Nantasenamat* or *DataProfessor*. I added some personal notes while following his steps.
 
-# Watch the tutorial video
+# Watch the tutorial video from Chanin
 
 [How to build an EDA app using Pandas Profiling | Streamlit #19](https://youtu.be/p4uohebPuCg)
 
@@ -58,6 +58,8 @@ Download and unzip contents from https://github.com/dataprofessor/eda-app/archiv
 ```
 streamlit run app.py
 ```
+
+You might encounter some errors below due to the upgrade/downgrade of dependencies. Try the solutions mentioned herewith then:
 
 * If you see protocol buffers error. Try: `pip install --upgrade protobuf==3.20.0`
 * If you see error: `AttributeError: module ‘click’ has no attribute ‘get_os_args’`. Try `pip install streamlit==1.8.1` # I already update this streamlit version in the requirements.txt 

@@ -6,11 +6,9 @@ from streamlit_pandas_profiling import st_profile_report
 
 # Web App Title
 st.markdown('''
-# **The EDA App**
+# **The INSTANT EDA App**
 
 This is the **EDA App** created in `Streamlit` by `python` using the **pandas-profiling** library.
-
-Source: Data Professor - Chanin Nantasenamat. 
 
 Modified by [Benjamin Trinh](https://www.linkedin.com/in/benjamin-binh-trinh/)
 
@@ -58,5 +56,5 @@ else:
 
 # Creadit
 st.markdown('''
-**Credit:** App originally written by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+**Credit:** [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
 ''')

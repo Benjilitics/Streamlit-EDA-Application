@@ -15,7 +15,7 @@ This instruction is from *Chanin Nantasenamat* or *DataProfessor*. I added some 
 
 Launch the web app:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/eda-app/main/app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://benjilitics-streamlit-eda-application-app-3m55t6.streamlitapp.com/)
 
 # Reproducing this web app
 To recreate this web app on your own computer, do the following.

@@ -5,3 +5,8 @@ pandas-profiling
 streamlit-pandas-profiling
 jinja2
 pyqt5-tools
+Pillow
+pyarrow
+scipy
+matplotlib
+kiwisolver

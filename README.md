@@ -64,6 +64,8 @@ You might encounter some errors below due to the upgrade/downgrade of dependenci
 * If you see protocol buffers error. Try: `pip install --upgrade protobuf==3.20.0`
 * If you see error: `AttributeError: module ‘click’ has no attribute ‘get_os_args’`. Try `pip install streamlit==1.8.1` # I already update this streamlit version in the requirements.txt 
 * If you see error `ImportError: cannot import name 'escape' from 'jinja2'`. Try to downgrade jinja2 by `pip install jinja2==3.0.3`
-* If you see error `ImportError: DLL load failed: The specified module could not be found`. Try to install `pip install pyqt5-tools`
+* If you see error `ImportError: DLL load failed: The specified module could not be found`. Try to install `pip install pyqt5-tools`. Then copy 2 files `libcrypto-1_1-x64.dll` and `libssl-1_1-x64.dll` from anaconda3/library/bin into anaconda3/env/eda/DLLs
+* If you see error `ModuleNotFoundError: No module named 'pyarrow.lib'` then install `pip install pyarrow`
+* If you see error `ImportError: cannot import name '_imaging' from 'PIL' (C:\Users\benjamin.trinh\Anaconda3\envs\eda\lib\site-packages\PIL\__init__.py)` then try `pip uninstall PIL` and `pip uninstall Pillow` then `pip install Pillow`
 
 HERE WE GO!

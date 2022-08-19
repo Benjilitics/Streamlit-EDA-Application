@@ -10,7 +10,7 @@ st.markdown('''
 
 This is the **EDA App** created in `Streamlit` by `python` using the **pandas-profiling** library.
 
-Original code written by Chanin Nantasenamat. 
+Source: Data Professor - Chanin Nantasenamat. 
 
 Modified by [Benjamin Trinh](https://www.linkedin.com/in/benjamin-binh-trinh/)
 

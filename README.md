@@ -26,7 +26,7 @@ Firstly, we will create a conda environment called *eda*
 In Windows, open Anaconda Prompt terminal
 
 ```
-conda create -n eda python=3.7.9
+conda create -n eda python=3.9
 ```
 Secondly, we will login to the *eda* environment
 ```
@@ -64,5 +64,6 @@ You might encounter some errors below due to the upgrade/downgrade of dependenci
 * If you see protocol buffers error. Try: `pip install --upgrade protobuf==3.20.0`
 * If you see error: `AttributeError: module ‘click’ has no attribute ‘get_os_args’`. Try `pip install streamlit==1.8.1` # I already update this streamlit version in the requirements.txt 
 * If you see error `ImportError: cannot import name 'escape' from 'jinja2'`. Try to downgrade jinja2 by `pip install jinja2==3.0.3`
+* If you see error `ImportError: DLL load failed: The specified module could not be found`. Try to install `pip install pyqt5-tools`
 
 HERE WE GO!

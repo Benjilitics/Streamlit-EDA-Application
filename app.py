@@ -63,5 +63,5 @@ else:
 
 # Creadit
 st.markdown('''
-**Credit:** thanks to the clear instruction from [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+**Credit:** thanks to the clear instruction from [Chanin Nantasenamat](https://data-professor.medium.com/) (aka [Data Professor](http://youtube.com/dataprofessor))
 ''')

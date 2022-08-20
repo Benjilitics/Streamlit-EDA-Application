@@ -47,7 +47,7 @@ else:
                 )
             a['Category #1'] = np.random.choice(['Yes', 'No'], len(a))
             a['Category #2'] = np.random.choice(['Benji is Doctor Strange', 'Benji is Captain Kiwi', 'Benji is Iron Man', 'Benji is nothing'], len(a))
-            a['Label'] = np.random.randint(0, 1, len(a))
+            a['Label'] = np.random.randint(0, 2, len(a))
             return a
         df = load_data()
         pr = ProfileReport(df, explorative=True)

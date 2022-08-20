@@ -41,12 +41,13 @@ else:
         # Example data
         @st.cache
         def load_data():
-            labels = ['Yes', 'No']
             a = pd.DataFrame(
-                np.random.rand(100, 5),
-                columns=['Variable #1', 'Variable #2', 'Variable #3', 'Variable #4', 'Variable #5']
-            a["Label"] = np.random.choice(labels, len(a))
-            )
+                np.random.rand(100, 3),
+                columns=['Variable #1', 'Variable #2', 'Variable #3']
+                )
+            a['Category #1'] = np.random.choice(['Yes', 'No'], len(a))
+            a['Category #2'] = np.random.choice(['Benji is Doctor Strange', 'Benji is Captain Kiwi', 'Benji is Iron Man', 'Benji is nothing'], len(a))
+            a['Label'] = np.random.randint(0, 1, len(a))
             return a
         df = load_data()
         pr = ProfileReport(df, explorative=True)

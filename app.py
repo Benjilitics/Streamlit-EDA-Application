@@ -10,7 +10,7 @@ st.markdown('''
 
 This is the **EDA App** created in `Streamlit` by `python` using the **pandas-profiling** library.
 
-Modified by [Benjamin Trinh](https://www.linkedin.com/in/benjamin-binh-trinh/)
+Made by [Benjamin Trinh](https://www.linkedin.com/in/benjamin-binh-trinh/)
 
 ---
 ''')
@@ -41,9 +41,11 @@ else:
         # Example data
         @st.cache
         def load_data():
+            labels = ['Yes', 'No']
             a = pd.DataFrame(
                 np.random.rand(100, 5),
                 columns=['Variable #1', 'Variable #2', 'Variable #3', 'Variable #4', 'Variable #5']
+            a["Label"] = np.random.choice(labels, len(a))
             )
             return a
         df = load_data()
@@ -56,5 +58,5 @@ else:
 
 # Creadit
 st.markdown('''
-**Credit:** thanks to the guidance by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+**Credit:** thanks to the clear instruction from [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
 ''')

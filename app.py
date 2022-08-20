@@ -3,8 +3,12 @@ import pandas as pd
 import streamlit as st
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
+from PIL import Image
 
 # Web App Title
+image = Image.open('./instantnoodles.png')
+st.image(image, caption='Instant Insights')
+
 st.markdown('''
 # **The INSTANT EDA App**
 
@@ -19,7 +23,7 @@ Made by [Benjamin Trinh](https://www.linkedin.com/in/benjamin-binh-trinh/)
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
     st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
+[Example CSV input file](https://raw.githubusercontent.com/Benjilitics/Streamlit-EDA-Application/main/a%20sample%20csv%20file.csv)
 """)
 
 # Pandas Profiling Report

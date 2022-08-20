@@ -7,7 +7,7 @@ from PIL import Image
 
 # Web App Title
 image = Image.open('./instantnoodles.png')
-st.image(image, caption='Instant Insights')
+st.image(image, caption='- Instant Insights -')
 
 st.markdown('''
 # **The INSTANT EDA App**

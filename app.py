@@ -45,8 +45,8 @@ else:
                 np.random.rand(100, 3),
                 columns=['Variable #1', 'Variable #2', 'Variable #3']
                 )
-            a['Category #1'] = np.random.choice(['Yes', 'No'], len(a))
-            a['Category #2'] = np.random.choice(['Benji is Doctor Strange', 'Benji is Captain Kiwi', 'Benji is Iron Man', 'Benji is nothing'], len(a))
+            a['Love Ben?'] = np.random.choice(['Yes', 'No'], len(a))
+            a['Who is Ben'] = np.random.choice(['Ben is Doctor Strange', 'Ben is Captain Kiwi', 'Ben is Iron Man', 'Ben is nothing'], len(a))
             a['Label'] = np.random.randint(0, 2, len(a))
             return a
         df = load_data()

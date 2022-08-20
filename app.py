@@ -41,7 +41,7 @@ if uploaded_file is not None:
     st_profile_report(pr)
 else:
     st.info('Awaiting for CSV file to be uploaded.')
-    if st.button('Press to use Example Dataset'):
+    if st.button('Press to create an Example Dataset and explore the auto-generated insights'):
         # Example data
         @st.cache
         def load_data():

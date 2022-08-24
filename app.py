@@ -58,7 +58,7 @@ else:
         st.header('**Input DataFrame**')
         st.write(dataframe)
         st.write('---')
-        st.header('**Pandas Profiling Report**')
+        st.header('**Exploratory Data Analysis Report for the Example Dataset**')
         st_profile_report(pr)
 
 # Creadit
